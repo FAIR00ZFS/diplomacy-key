@@ -1,0 +1,56 @@
+.outer {
+    background: transparent;
+    position: relative;
+    .shape-bg {
+        position: relative;
+        img {
+            width: 100%;
+            height: 100%;
+            transform: rotate(180deg);
+        }
+    }
+    .blue-box {
+        background-color: #162173;
+        padding: 5px 15px;
+        transform: skew(-15deg);
+        border-radius: 2px;
+    }
+    .grey-box {
+        background-color: #2b2b2b;
+        padding: 5px 15px;
+        transform: skew(-15deg);
+        border-radius: 2px;
+        select {
+            background: transparent;
+            border: none;
+            outline: none;
+            color: white;
+            font-weight: bold;
+        }
+        select:focus {
+            border: none;
+            outline: none;
+        }
+    }
+    .middle-section {
+        background: #f7f7f7;
+        .logo-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            img {
+                margin: 0 auto;
+                display: block;
+                width: 70%;
+                height: auto;
+            }
+        }
+    }
+    .bottom-section {
+        background: #f7f7f7;
+    }
+    .bottom-box {
+        background: url(/assets/images/shape.png);
+        background-size: cover;
+    }
+}

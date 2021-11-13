@@ -1,0 +1,39 @@
+.outer {
+    .box {
+        width: 100%;
+        margin: 10px 0;
+        background: white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px;
+        position: relative;
+        box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+        .full-icon {
+            position: absolute;
+            right: 4%;
+            top: 4%;
+            font-size: 18px;
+            color: #666;
+            cursor: pointer;
+        }
+        img {
+            align-self: center;
+            max-height: 150px;
+        }
+        .text-outer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .rating-outer {
+                color: gold;
+            }
+        }
+    }
+    .box:hover {
+        cursor: pointer;
+        box-shadow: 0 3px 8px 0 rgb(32 33 36 / 28%);
+        transition: .3s;
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,50 @@
+.outer {
+    .arrow-outer {
+        cursor: pointer;
+        i {
+            font-size: 26px;
+        }
+    }
+    .scrollBox {
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        .box {
+            display: flex;
+            border-radius: 5px;
+            flex-direction: column;
+            padding: 10px 20px;
+            flex: 0 0 23%;
+            margin: 10px 1%;
+            position: relative;
+            box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+            .full-icon {
+                position: absolute;
+                right: 2%;
+                top: 1%;
+                font-size: 18px;
+                color: #666;
+                cursor: pointer;
+            }
+            img {
+                align-self: center;
+                max-width: 70%;
+                margin-top: 20px;
+            }
+            .rating-outer {
+                color: gold;
+            }
+            .rate-cart {
+                align-items: center;
+                i {
+                    font-size: 26px;
+                }
+            }
+        }
+        .box:hover {
+            cursor: pointer;
+            box-shadow: 0 3px 8px 0 rgb(32 33 36 / 28%);
+            transition: .3s;
+            margin-top: 5px;
+        }
+    }
+}

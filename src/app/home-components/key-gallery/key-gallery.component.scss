@@ -1,0 +1,86 @@
+.outer {
+    .left-menu {
+        width: 25%;
+        background: url(/assets/images/Pattern.png);
+        padding: 30px 35px;
+        .btn-all {
+            background: #162173;
+            color: #fff;
+            font-size: 18px;
+            width: 130px;
+            text-align: center;
+            padding: 10px 0px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn-all:hover {
+            transition: .2s;
+            background: #121b64;
+        }
+    }
+    .right-box {
+        width: 100%;
+        .tab-head {
+            width: 100%;
+            .head-item-select {
+                border-bottom: 3px solid #162173;
+            }
+        }
+        .items-outer {
+            .box {
+                width: 31%;
+                margin: 10px 1.1%;
+                background: white;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                padding: 10px 20px;
+                position: relative;
+                box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+                .full-icon {
+                    position: absolute;
+                    right: 2%;
+                    top: 1%;
+                    font-size: 18px;
+                    color: #666;
+                    cursor: pointer;
+                }
+                img {
+                    align-self: center;
+                    max-width: 70%;
+                    margin-top: 20px;
+                }
+                .rating-outer {
+                    color: gold;
+                }
+                .rate-cart {
+                    align-items: center;
+                    i {
+                        font-size: 26px;
+                    }
+                }
+            }
+            .box:hover {
+                cursor: pointer;
+                box-shadow: 0 3px 8px 0 rgb(32 33 36 / 28%);
+                transition: .3s;
+                margin-top: 5px;
+            }
+        }
+        .btn-all {
+            background: #162173;
+            color: #fff;
+            font-size: 18px;
+            width: 130px;
+            text-align: center;
+            padding: 10px 0px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 30px auto;
+        }
+        .btn-all:hover {
+            transition: .2s;
+            background: #121b64;
+        }
+    }
+}

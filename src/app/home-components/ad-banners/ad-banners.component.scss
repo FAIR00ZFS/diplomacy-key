@@ -1,0 +1,23 @@
+.outer {
+    .adbox {
+        width: 48%;
+        background: url(/assets/images/add-banner-small.png);
+        background-size: cover;
+        padding: 50px 60px;
+        .btn-shop {
+            background: #162173;
+            color: #fff;
+            font-size: 18px;
+            width: 130px;
+            text-align: center;
+            padding: 10px 0px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px 0px;
+        }
+        .btn-shop:hover {
+            transition: .2s;
+            background: #121b64;
+        }
+    }
+}
